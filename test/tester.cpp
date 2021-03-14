@@ -1,7 +1,7 @@
 #include <iostream>
 #include <set>
 
-#include "binary_heap.h"
+#include "heap.h"
 
 namespace heap {
 
@@ -59,7 +59,7 @@ bool run_test(std::ostream& out, std::size_t commands_count) {
 
 } // namespace testing
 
-} // namespace binary_heap
+} // namespace heap
 
 int main() {
   for (auto attempt_id = std::size_t{0}; attempt_id < 10; ++attempt_id) {

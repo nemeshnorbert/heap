@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "binary_heap.h"
+#include "heap.h"
 
 int run() {
   std::ostream& out = std::cout;

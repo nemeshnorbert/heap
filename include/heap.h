@@ -1,5 +1,6 @@
 #include <cassert>
 #include <vector>
+#include <set>
 
 namespace heap {
 
@@ -264,4 +265,4 @@ class rb_heap {
   std::set<T, Comp> values_;
 };
 
-} // namespace rb_heap
+} // namespace heap
